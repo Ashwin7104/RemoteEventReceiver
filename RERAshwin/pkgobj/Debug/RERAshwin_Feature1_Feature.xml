@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Feature xmlns="http://schemas.microsoft.com/sharepoint/" Id="21d850ac-d0bb-4bb5-aec2-18ead16a5c08" Scope="Web" Title="RERAshwin Feature1" Version="1.0.0.2">
+  <ElementManifests>
+    <ElementManifest Location="Elements.xml" />
+    <ElementFile Location="readme.md" />
+  </ElementManifests>
+  <UpgradeActions>
+    <VersionRange>
+      <ApplyElementManifests>
+        <ElementManifest Location="Elements.xml" />
+      </ApplyElementManifests>
+    </VersionRange>
+  </UpgradeActions>
+</Feature>

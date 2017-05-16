@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--Created:cb85b80c-f585-40ff-8bfc-12ff4d0e34a9-->
+<App xmlns="http://schemas.microsoft.com/sharepoint/2012/app/manifest" Name="RERAshwin" ProductID="{62315ca9-de04-4a84-9a19-34b4445ca8a0}" Version="1.0.0.2" SharePointMinVersion="16.0.0.0">
+  <Properties>
+    <Title>RERAshwin</Title>
+    <StartPage>https://localhost:44300/?{StandardTokens}</StartPage>
+    <InstalledEventEndpoint>https://rerashwin.servicebus.windows.net/1010547950/1470570730/obj/22f65250-1c22-456c-9dae-1ee37b5172fb/Services/AppEventReceiver.svc</InstalledEventEndpoint>
+  </Properties>
+  <AppPrincipal>
+    <AutoDeployedWebApplication>
+      <DebugInfo ClientSecret="UKjKpVb1TAgpIAhZPWi+M2BFG370LsNRvpXb7GXa1s8=" AppUrl="https://localhost:44300/;https://rerashwin.servicebus.windows.net/1010547950/1470570730/obj/22f65250-1c22-456c-9dae-1ee37b5172fb/" />
+    </AutoDeployedWebApplication>
+  </AppPrincipal>
+  <AppPermissionRequests>
+    <AppPermissionRequest Scope="http://sharepoint/content/sitecollection/web" Right="FullControl" />
+  </AppPermissionRequests>
+</App>

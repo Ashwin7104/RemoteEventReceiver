@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" dslVersion="1.0.0.0" Id="6efa3f8e-221b-470e-9bae-5f3a5ca32cea" solutionId="6efa3f8e-221b-470e-9bae-5f3a5ca32cea" resetWebServer="false" sharePointProductVersion="16.0" name="RERAshwin" xmlns="http://schemas.microsoft.com/VisualStudio/2008/SharePointTools/PackageModel">
+  <features>
+    <featureReference itemId="4579150c-dc7a-4ad8-aa7b-0db0af67f166" />
+  </features>
+</package>
